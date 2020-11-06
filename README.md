@@ -8,6 +8,8 @@ The idea behind this repo is to use the a dataset of tracks published to my musi
 2. [Data Exploration](#data-exploration) - Explore the basic as well as analytical audio features of the tracks and visualize them.
 3. [Playlist Classification](#playlist-classification) - Create a machine learning classification model to assign new tracks to existing playlists.
 
+![eargasm music](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/files/eargasm-header.png)
+
 # Data Retrieval
 
 [eargasm_DataRetrieval.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasm_DataRetrieval.ipynb)
@@ -34,7 +36,11 @@ This notebook imports track data fetched previously using [DataRetrieval.ipynb](
 
 [eargasm_Classification.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasm_PlaylistClassification.ipynb)
 
-This notebook 
+This notebook import track data fetched previously using [DataRetrieval.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasm_DataRetrieval.ipynb) and uses it to build a machine learning model meant to assign new tracks to existing playlists according to the following steps:
+- feature engineering
+- selecting a number of best-performing classifiers for further development using cross-validation
+- evaluating selected estimators by hyperparameter tuning, confusion matrix and learning curves visualization
+- choosing and evaluating the real life performance of the model
 
 # Thank you!
 
