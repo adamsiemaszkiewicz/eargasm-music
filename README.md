@@ -21,6 +21,8 @@ The idea behind this repo is to use the a dataset of tracks published to my musi
 
 # Data Retrieval
 
+[Google Colab - eargasm DataRetrieval.ipynb](#)
+
 [Github - eargasm_DataRetrieval.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasm_DataRetrieval.ipynb)
 
 This notebook uses [Spotipy](https://spotipy.readthedocs.io/) Python library to access [Spotify Web API](https://developer.spotify.com/documentation/web-api/) and fetch the playlist information from the blog using `spotipy.user_playlists()` module. Once I have a list of all playlists I can start fetching track info:
@@ -32,7 +34,8 @@ All the data was organized using [Numpy](https://numpy.org/) and [Pandas](https:
 
 # Data Exploration
 
-[Google Colab - eargasm DataExploration.ipynb](https://drive.google.com/file/d/1CabkVHbRzszEW-22vpGYOQQo7Sgpvcvc/view)
+[Google Colab - eargasm DataExploration.ipynb](#)
+
 [Github - eargasm_DataExploration.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasm_DataExploration.ipynb)
 
 This notebook imports track data fetched previously using [DataRetrieval.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasm_DataRetrieval.ipynb) and uses various Python libraries to analyse and visualize the data such as:
@@ -44,7 +47,9 @@ This notebook imports track data fetched previously using [DataRetrieval.ipynb](
 
 # Playlist Classification
 
-[eargasm_Classification.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasm_PlaylistClassification.ipynb)
+[Google Colab - eargasm PlaylistClassification.ipynb](#)
+
+[eargasm_PlaylistClassification.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasm_PlaylistClassification.ipynb)
 
 This notebook import track data fetched previously using [DataRetrieval.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasm_DataRetrieval.ipynb) and uses it to build a machine learning model meant to assign new tracks to existing playlists according to the following steps:
 - feature engineering
