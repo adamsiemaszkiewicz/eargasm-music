@@ -11,7 +11,11 @@ The idea behind this repo is to use the a dataset of tracks published to my musi
 2. [Data Exploration](#data-exploration) - Explore the basic as well as analytical audio features of the tracks and visualize them.
 3. [Playlist Classification](#playlist-classification) - Create a machine learning classification model to assign new tracks to existing playlists.
 
-***Disclaimer:*** *All the steps are done based on my private music library, however, by changing just a few lines of code you can use it for your own purposes* 
+***Disclaimers:*** 
+
+*1. All the steps are done based on my private music library, however, by changing just a few lines of code you can use it for your own purposes* 
+
+*2. Some of the content is not rendered properly on Github preview, therefore always look for Google Colab external link.*
 
 ![eargasm music](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/files/eargasm-header.png)
 
