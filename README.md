@@ -17,15 +17,24 @@ This notebook uses [Spotipy](https://spotipy.readthedocs.io/) Python library to 
 - Audio features using `spotipy.audio_features()` such as danceability, acousticness, valence etc.
 - Audio analysis using `spotipy.audio_analysis()` such as tempo, key, mode etc.
 - Genres using `spotipy.artist()` to get a list of genres assigned for each artist
-All the data was organized used Pandas and exported to CSV files.
+All the data was organized using [Numpy](https://numpy.org/) and [Pandas](https://pandas.pydata.org/) libraries and exported to CSV files for later use.
 
 # Data Exploration
 
 [eargasm_DataExploration.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasm_DataExploration.ipynb)
 
+This notebook imports track data fetched previously using [DataRetrieval.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasm_DataRetrieval.ipynb) and uses various Python libraries to analyse and visualize the data such as:
+- most popular artists and genres using [WordCloud](https://github.com/amueller/word_cloud) and [Plotly](https://plotly.com/)
+- interactive box plots showing statistical representation of the track features for each playlist using [Plotly](https://plotly.com/)
+- heatmap showing correlation between the audio features using [Plotly](https://plotly.com/)
+- interactive density and distribution plots aggregated by selected features using [Plotly](https://plotly.com/)
+- interactive playlist comparison using radar and scatter plots using [Plotly](https://plotly.com/)
+
 # Playlist Classification
 
 [eargasm_Classification.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasm_PlaylistClassification.ipynb)
+
+This notebook 
 
 # Thank you!
 
