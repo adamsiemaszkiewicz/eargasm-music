@@ -1,5 +1,8 @@
-# eargasm music
-**by Adam Siemaszkiewicz**
+# eargasmAI
+** Spotify library analysis, visualization and automatic playlist recommendation system  **
+
+*by Adam Siemaszkiewicz*
+
 
 # Summary
 
