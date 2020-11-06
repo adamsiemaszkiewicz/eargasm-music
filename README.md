@@ -1,5 +1,5 @@
 # eargasmAI
-** Spotify library analysis, visualization and automatic playlist recommendation system  **
+**your Spotify library analysis, visualization and automatic playlist recommendation system**
 
 *by Adam Siemaszkiewicz*
 
