@@ -21,7 +21,7 @@ The idea behind this repo is to use the a dataset of tracks published to my musi
 
 # Data Retrieval
 
-[eargasm_DataRetrieval.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasm_DataRetrieval.ipynb)
+[Github - eargasm_DataRetrieval.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasm_DataRetrieval.ipynb)
 
 This notebook uses [Spotipy](https://spotipy.readthedocs.io/) Python library to access [Spotify Web API](https://developer.spotify.com/documentation/web-api/) and fetch the playlist information from the blog using `spotipy.user_playlists()` module. Once I have a list of all playlists I can start fetching track info:
 - Basic track information using `spotipy.playlist_items()` such as: artist, name, duration, url etc.
@@ -32,7 +32,8 @@ All the data was organized using [Numpy](https://numpy.org/) and [Pandas](https:
 
 # Data Exploration
 
-[eargasm_DataExploration.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasm_DataExploration.ipynb)
+[Google Colab - eargasm DataExploration.ipynb](https://drive.google.com/file/d/1CabkVHbRzszEW-22vpGYOQQo7Sgpvcvc/view)
+[Github - eargasm_DataExploration.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasm_DataExploration.ipynb)
 
 This notebook imports track data fetched previously using [DataRetrieval.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasm_DataRetrieval.ipynb) and uses various Python libraries to analyse and visualize the data such as:
 - most popular artists and genres using [WordCloud](https://github.com/amueller/word_cloud) and [Plotly](https://plotly.com/)
