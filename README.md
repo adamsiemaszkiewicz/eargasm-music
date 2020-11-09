@@ -21,7 +21,7 @@ The idea behind this repo is to use the a dataset of tracks published to my musi
 
 # Data Retrieval
 
-[Google Colab - eargasm DataRetrieval.ipynb](https://drive.google.com/file/d/1emR9h6_Wxu1Iogk6fhqzpxD44R2ED-jm/view?usp=sharing)
+[Google Colab - eargasm DataRetrieval.ipynb](https://colab.research.google.com/drive/1emR9h6_Wxu1Iogk6fhqzpxD44R2ED-jm)
 
 [Github - eargasm_DataRetrieval.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasmAI_DataRetrieval.ipynb)
 
@@ -34,7 +34,7 @@ All the data was organized using [Numpy](https://numpy.org/) and [Pandas](https:
 
 # Data Exploration
 
-[Google Colab - eargasm DataExploration.ipynb](https://drive.google.com/file/d/1CabkVHbRzszEW-22vpGYOQQo7Sgpvcvc/view?usp=sharing)
+[Google Colab - eargasm DataExploration.ipynb](https://colab.research.google.com/drive/1CabkVHbRzszEW-22vpGYOQQo7Sgpvcvc)
 
 [Github - eargasm_DataExploration.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasmAI_DataExploration.ipynb)
 
@@ -47,7 +47,7 @@ This notebook imports track data fetched previously using [DataRetrieval.ipynb](
 
 # Playlist Classification
 
-[Google Colab - eargasm PlaylistClassification.ipynb](https://drive.google.com/file/d/1bRbLhGcODo6gti-gS6iaBJalm0wc0WWB/view?usp=sharing)
+[Google Colab - eargasm PlaylistClassification.ipynb](https://colab.research.google.com/drive/1bRbLhGcODo6gti-gS6iaBJalm0wc0WWB)
 
 [eargasm_PlaylistClassification.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasmAI_PlaylistClassification.ipynb)
 
