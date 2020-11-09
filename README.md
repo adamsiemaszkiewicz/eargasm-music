@@ -21,9 +21,9 @@ The idea behind this repo is to use the a dataset of tracks published to my musi
 
 # Data Retrieval
 
-[Google Colab - eargasm DataRetrieval.ipynb](#)
+[Google Colab - eargasm DataRetrieval.ipynb](https://drive.google.com/file/d/1emR9h6_Wxu1Iogk6fhqzpxD44R2ED-jm/view?usp=sharing)
 
-[Github - eargasm_DataRetrieval.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasm_DataRetrieval.ipynb)
+[Github - eargasm_DataRetrieval.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasmAI_DataRetrieval.ipynb)
 
 This notebook uses [Spotipy](https://spotipy.readthedocs.io/) Python library to access [Spotify Web API](https://developer.spotify.com/documentation/web-api/) and fetch the playlist information from the blog using `spotipy.user_playlists()` module. Once I have a list of all playlists I can start fetching track info:
 - Basic track information using `spotipy.playlist_items()` such as: artist, name, duration, url etc.
@@ -34,9 +34,9 @@ All the data was organized using [Numpy](https://numpy.org/) and [Pandas](https:
 
 # Data Exploration
 
-[Google Colab - eargasm DataExploration.ipynb](#)
+[Google Colab - eargasm DataExploration.ipynb](https://drive.google.com/file/d/1CabkVHbRzszEW-22vpGYOQQo7Sgpvcvc/view?usp=sharing)
 
-[Github - eargasm_DataExploration.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasm_DataExploration.ipynb)
+[Github - eargasm_DataExploration.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasmAI_DataExploration.ipynb)
 
 This notebook imports track data fetched previously using [DataRetrieval.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasm_DataRetrieval.ipynb) and uses various Python libraries to analyse and visualize the data such as:
 - most popular artists and genres using [WordCloud](https://github.com/amueller/word_cloud) and [Plotly](https://plotly.com/)
@@ -47,9 +47,9 @@ This notebook imports track data fetched previously using [DataRetrieval.ipynb](
 
 # Playlist Classification
 
-[Google Colab - eargasm PlaylistClassification.ipynb](#)
+[Google Colab - eargasm PlaylistClassification.ipynb](https://drive.google.com/file/d/1bRbLhGcODo6gti-gS6iaBJalm0wc0WWB/view?usp=sharing)
 
-[eargasm_PlaylistClassification.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasm_PlaylistClassification.ipynb)
+[eargasm_PlaylistClassification.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasmAI_PlaylistClassification.ipynb)
 
 This notebook import track data fetched previously using [DataRetrieval.ipynb](https://github.com/adamsiemaszkiewicz/eargasm-music/blob/main/eargasm_DataRetrieval.ipynb) and uses it to build a machine learning model meant to assign new tracks to existing playlists according to the following steps:
 - feature engineering
